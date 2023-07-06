@@ -5,7 +5,7 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <span>App</span>
+      {/* <span>App</span> */}
       <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route path="table" element={<Antdtable/>}/>
